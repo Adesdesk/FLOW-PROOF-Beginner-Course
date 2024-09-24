@@ -4,7 +4,7 @@ Using Structs
 
 ## Description
 
-Creating my first Cadence Smart Contract for the Flow Blockchain - a practice project using Structs (containers for other data types).
+Creating my first Cadence Smart Contract for the Flow Blockchain - a practice project using Structs (containers for other data types). This particular contract depicts data about a factory building (could be expanded to capture multiple factory buildings) where the struct 'BuildingParticulars' is used to contain various details such as building color, perimeter, street of location, and the corresponding manager as may be particular to any factory.
 
 ## Getting Started
 
