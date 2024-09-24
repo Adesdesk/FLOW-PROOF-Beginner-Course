@@ -1,0 +1,11 @@
+import "FactoryData"
+
+transaction(perimeterInMeters: UInt, buildingColor: String, street: String, manager: Address) {
+
+    prepare(signer: &Account) {}
+
+    execute {
+        FactoryData.addBuildingParticulars(perimeterInMeters: perimeterInMeters, buildingColor: buildingColor, street: street, manager: manager)
+        log("We're done.")
+    }
+}
