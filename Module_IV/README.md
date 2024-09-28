@@ -1,31 +1,37 @@
 # Project Title
 
-Using Structs
+Access Control in Cadence
 
 ## Description
-
-Creating my first Cadence Smart Contract for the Flow Blockchain - a practice project using Structs (containers for other data types). This particular contract depicts data about a factory building (could be expanded to capture multiple factory buildings) where the struct 'BuildingParticulars' is used to contain various details such as building color, perimeter, street of location, and the corresponding manager as may be particular to any factory.
+A close look at a piece of code to provide a walk-through looking at a contract and a script which has 4 variables (a, b, c, d) and 3 functions (publicFunc, contractFunc, privateFunc) defined. The objective is to do the following In each AREA (1, 2, 3, and 4), during the code walk through:
+* For each variable (a, b, c, and d), determine in which areas they can be read (read scope) and which areas they can be modified (write scope)
+* For each function, (publicFunc, contractFunc, and privateFunc), share where they can be called.
 
 ## Getting Started
 
 ### Installing
 
-* Launch a fresh workspace in Flow Playground [here](https://play.flow.com)
-* Create a new file under the 'Contracts' folder. You man name it 'FactoryData' to directly replicate this exact project or you may name it as you desire.
-* Copy and paste the code content of this project's 'FactoryData.cdc' file into your newly created contract file and click on the 'deploy' button that pops up on the playgorund.
-* Locate the 'Transactions' folder, create a file named similar to this project's transaction file or as may suit your purpose.
-* Copy and paste the code from this project's 'UpdateFactoryData' file into your newly created transactions file.
-* Look out for the input fields that pop up and fill them aappropriately, then click on the 'send' button.
+* Clone a copy of this project to your local computer using the following command
+
+```
+git clone https://github.com/Adesdesk/FLOW-PROOF-Beginner-Course.git
+```
 
 ### Executing program
 
-* Locate the 'Scripts' folder. In it, create a new file named as you choose, then copy and paste the code content of this project's 'AccessFactoryData' into it.
-* Look out for the input field that pops up and input the same address used as the 'manager' in transactions  above, then execute.
-* Expect results to be logged unto the console below the playground. 
+* Navigate (cd) into the Module_IV folder and access the contract in question by opening the following file.
+
+```
+Module_IV/cadence/contracts/SomeContract.cdc
+```
+
+* If you have the Flow CLI setup on your computer, you may be able to try out various interactions with the functions and variables of the contract in order to ascertain which areas they can be read or modified.
+* The easier option is to access the ready-to-use Flow playground [here](https://play.flow.com) for use with no further installations required.
+* Copy the 'SomeContract' coontract and paste in a new contract file within the playground and you can carry interact with the contract details as needed.
 
 ## Help
 
-Ensure to identify the appropriate contract address and import in subsequent files in the right format. A closer observation of the existing contracts on the Flow playground will throw more light on how to achieve this.
+* You may wish to study further about access control in cadence [here](https://cadence-lang.org/docs/language/access-control)
 
 ## Authors
 
