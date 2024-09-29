@@ -6,6 +6,7 @@ Access Control in Cadence
 A close look at a piece of code to provide a walk-through looking at a contract and a script which has 4 variables (a, b, c, d) and 3 functions (publicFunc, contractFunc, privateFunc) defined. The objective is to do the following In each AREA (1, 2, 3, and 4), during the code walk through:
 * For each variable (a, b, c, and d), determine in which areas they can be read (read scope) and which areas they can be modified (write scope)
 * For each function, (publicFunc, contractFunc, and privateFunc), share where they can be called.
+* A PDF document named 'Access_areas_Module_IV' summarises my judgement of areas where the variables and functions can be accessed and is available within this folder
 
 ## Getting Started
 
@@ -45,3 +46,4 @@ Email: aadelakun28@gmail.com
 ## License
 
 This project is licensed under the GNU License - see the LICENSE.md file for details
+
