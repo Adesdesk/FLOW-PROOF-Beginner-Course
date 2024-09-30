@@ -2,7 +2,7 @@ import "FactoryData"
 
 transaction(perimeterInMeters: UInt, buildingColor: String, street: String, manager: Address) {
 
-    prepare(signer: &Account) {}
+    prepare(signer: &Account) {} // Playground flags that AuthAccount has been depricated in favour of &Account
 
     execute {
         FactoryData.addBuildingParticulars(perimeterInMeters: perimeterInMeters, buildingColor: buildingColor, street: street, manager: manager)
