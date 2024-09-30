@@ -1,7 +1,7 @@
 {
 	"contracts": {
-		"FactoryData": {
-			"source": "cadence/contracts/FactoryData.cdc",
+		"SomeContract": {
+			"source": "cadence/contracts/SomeContract.cdc",
 			"aliases": {
 				"testing": "0000000000000007"
 			}
